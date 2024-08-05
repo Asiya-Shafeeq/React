@@ -1,0 +1,83 @@
+.Offers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem;
+    gap: 1.5rem;
+}
+.left-offer{
+    border-radius: 20px;
+    background-image: url(../Assets/bg-2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+.left-offer h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-offer h1{
+    color: #fff;
+    margin: 1rem 0;
+}
+.left-offer h4{
+    color: #fff;
+}
+.left-offer h4.offer{
+    margin-bottom: 2rem;
+    font-weight: normal;
+    font-size: 13px;
+}
+.right-offer{
+    border-radius: 20px;
+    background-image: url(../Assets/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+.right-offer h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-offer h1{
+    color: #fff;
+    margin: 1rem 0;
+}
+.right-offer h4{
+    color: #fff;
+}
+.right-offer h4.offer{
+    margin-bottom: 2rem;
+    font-weight: normal;
+    font-size: 13px;
+}
+@media screen and (max-width: 980px) {
+    .Offers{
+        margin: 2rem;
+    }
+    .left-offer h5{
+        font-size: 18px;
+    }
+    .left-offer h1{
+        font-size: 25px;
+    }
+    .right-offer h5{
+        font-size: 18px;
+    }
+    .right-offer h1{
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .Offers{
+        grid-template-columns: 1fr;
+    }
+}
+
+

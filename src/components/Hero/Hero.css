@@ -1,0 +1,70 @@
+.hero{
+    background-image: url(../Assets/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 5rem 2rem 5rem;
+}
+.hero-contants{
+    padding: 0 3rem ;
+}
+.hero-contants h5{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+}
+.hero-contants h1{
+    font-size: 80px;
+    color: #fff;
+    line-height: 7rem;
+}
+.hero-contants button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 10px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+}
+.hero-bottom .dot-img{
+    display: block;
+    width: 10%;
+}
+@media screen and (max-width: 1080px) {
+    .hero-contants{
+        padding: 0;
+    }
+    .hero{
+        padding: 2rem;
+    }
+    .hero-contants h5{
+        font-size: 35px;
+    }
+    .hero-contants h1{
+        line-height: 5rem;
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-contants h5{
+        font-size: 25px;
+    }
+    .hero-contants h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .hero-contants h1 {
+        font-size: 40px;
+        line-height: 3rem;
+    }
+    .hero-contants button{
+        padding: 8px 40px;
+    }
+}

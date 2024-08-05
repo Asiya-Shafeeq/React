@@ -1,0 +1,28 @@
+.new-arrival{
+    margin: 0 5rem;
+}
+.arrival{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 3rem;
+    gap: 30px;
+}
+
+@media screen and (max-width: 980px) {
+    .new-arrival{
+        margin: 0 2rem;
+    }
+    .new-arrival .content h5{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .collections{
+        grid-template-columns: 1fr 1fr;
+    }
+}

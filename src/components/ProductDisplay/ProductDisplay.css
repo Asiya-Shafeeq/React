@@ -1,0 +1,141 @@
+.product-display{
+    margin: 5rem;
+}
+.product-display .top{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.product-mainimg{
+    width: 350px;
+}
+.product-left{
+    display: flex;
+    gap: 20px;
+    width: 500px;
+}
+.product-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.product-img-list li{
+    width: 55px;
+}
+.breadcrums{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    color: #807D7E;
+}
+.product-right{
+    margin: 2rem;
+}
+.product-right h1{
+    font-size: 23px;
+    margin-bottom: 1rem;
+}
+.right-star{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 2rem;
+}
+.right-star p{
+    color: #807D7E;
+}
+a.star{
+    display: block;
+    width: 25%;
+}
+div.comment{
+    display: flex;
+}
+div.comment p{
+    font-size: 10px;
+    color: #807D7E;
+}
+a.commnet{
+    display: block;
+    width: 20%;
+    margin-right: 10px;
+}
+.size-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.size h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.size h3 span{
+    color: #807D7E;
+    margin-left: 1rem;
+}
+.size-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.size-box li{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #807D7E;
+}
+.size-box li a{
+    color: #000;
+    font-size: 13px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    padding: 10px 30px;
+    background-color: #8A33FD;
+    border-radius: 10px;
+}
+.cart a.text{
+    margin-left: 5px;
+    font-size: 10px;
+    color: #fff;
+}
+.buttons.price{
+    font-size: 10px;
+    border: 1px solid #000;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+hr.line{
+    margin-top: 1.5rem;
+}
+.shoping{
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.shoping li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.shoping li a.text{
+    font-size: 10px;
+    color: #000;
+}
+.shoping li a.shop_img{
+    padding: 8px;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+}

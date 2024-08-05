@@ -1,0 +1,13 @@
+.shp-category{
+    margin: 0 5rem;
+}
+.show h1{
+    margin: 2rem 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.shopcategory-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}

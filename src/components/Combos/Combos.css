@@ -1,0 +1,85 @@
+.combos{
+    margin: 0 5rem;
+}
+.combos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.combos-grid .price{
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+}
+.content h6.title{
+    font-weight: normal;
+}
+.combos-grid .wishlist{
+    padding: 8px;
+    background-color: #F6F6F6;
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+    bottom: 22rem;
+}
+@media screen and (max-width: 1280px) {
+    .combos-grid .wishlist{
+        bottom: 19rem;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .combos-grid .wishlist{
+        bottom: 17rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    .combos{
+        margin: 0 2rem;
+    }
+    .combos-grid .wishlist {
+        bottom: 15rem;
+        left: 1rem;
+    }
+    .combos-grid .content h5{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .combos-grid .wishlist {
+        bottom: 24rem;
+        left: 0rem;
+    }
+    .combos-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 640px) {
+    .combos-grid .wishlist{
+        bottom: 20rem;
+    }
+    .combos-grid .content h5{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .combos-grid .wishlist {
+        bottom: 18rem;
+    }
+    .container {
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .combos .box h1 {
+        font-size: 20px;
+    }
+    .combos-grid .wishlist {
+        bottom: 26rem;
+    }
+    .combos-grid{
+        grid-template-columns: 1fr;
+    }
+}

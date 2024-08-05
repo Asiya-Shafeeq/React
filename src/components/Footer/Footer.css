@@ -1,0 +1,159 @@
+.footer{
+    background-color: #3C4242;
+    padding: 5rem 5rem 1.5rem 5rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.container h5{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.container li a{
+    color: #fff;
+    font-size: 12px;
+}
+.container li{
+    margin-bottom: 8px;
+}
+.container li:last-child{
+    margin-bottom: 0;
+}
+.social{
+    display: grid;
+}
+.icons ul{
+    display: flex;
+    gap: 10px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.socail_box{
+     display: flex;
+     gap: 1.5rem;
+     align-items: center;
+}
+.store h1{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.play{
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    padding: 5px;
+    border-radius: 15px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    padding: 5px;
+    border-radius: 15px;
+}
+.store a{
+    font-size: 10px;
+    color: #fff;
+}
+.store a h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.heading{
+    margin-left: 1rem;
+}
+.bottom_box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    align-items: center;
+    padding: 1.5rem 5rem;
+}
+.bottom_box h3{
+    color: #fff;
+    font-weight: 500;
+}
+.bottom_box .down_arrow{
+    width: 1%;
+    transform: rotate(90deg);
+    display: block;
+}
+.bottom p{
+    text-align: center;
+    color: #fff;
+    padding-top: 1.5rem;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1080px) {
+    .container{
+        gap: 7rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    .footer{
+        padding: 5rem 2rem 1.5rem 2rem;
+    }
+    .store h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bottom_box{
+        padding: 1.5rem 2rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container{
+        gap: 3rem;
+    }
+    .social{
+        display: block;
+    }
+    .icons ul{
+        margin-bottom: 3rem;
+    }
+    .bottom_box h3 {
+        font-size: 15px;
+    }
+    .bottom_box{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 540px) {
+    .container{
+        padding-bottom: 3rem;
+        gap: 2rem;
+    }
+    .bottom p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .store a h3{
+        font-size: 13px;
+    }
+    .store a{
+        font-size: 8px;
+    }
+    .bottom_box h3 {
+        font-size: 13px;
+    }
+    .bottom_box .down_arrow {
+        width: 2%;
+    }
+    .bottom p {
+        font-size: 7px;
+    }
+}

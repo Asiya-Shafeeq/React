@@ -1,0 +1,94 @@
+.background{
+    margin: 0 5rem 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left_bg h1{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.left_bg{
+    background-image: url(../Assets/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 3rem;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+}
+.left_bg p{
+    color: #fff;
+    font-weight: normal;
+    width: 60%;
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+.left_bg button{
+    padding: 10px 50px;
+}
+.right_bg{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .left_bg {
+        padding: 3rem;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .left_bg{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    .left_bg h1{
+        font-size: 20px;
+    }
+    .left_bg p{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .background{
+        margin:  0 2rem 2rem 2rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    .left_bg h1{
+        font-size: 15px;
+    }
+    .left_bg p{
+        font-size: 10px;
+    }
+    .left_bg button {
+        padding: 8px 40px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .left_bg h1 {
+        font-size: 13px;
+    }
+    .left_bg button {
+        padding: 3px 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .collections{
+        margin: 0 1rem;
+    }
+    .background{
+        display: block;
+    }
+    .left_bg{
+        padding: 3rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .left_bg h1{
+        font-size: 15px;
+    }
+    .right_bg{
+        border-radius: 10px;
+    }
+}

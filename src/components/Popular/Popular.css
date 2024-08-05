@@ -1,0 +1,82 @@
+.content{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.popular{
+    margin:0 5rem;
+}
+.popular-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+.categories{
+    margin-bottom: 3rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.box h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 1rem;
+}
+.box .line{
+    display: block;
+    width: 7px;
+}
+
+
+.content h5{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.content h6{
+    font-size: 13px;
+    color: #807D7E;
+}
+a.arrow{
+    display: block;
+}
+@media screen and (max-width: 980px) {
+    .popular{
+        margin: 0 2rem;
+    }
+    .popular-grid .content h5{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .popular-grid .content h6 {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .popular-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .popular-grid .content h5{
+        font-size: 15px;
+    }
+    .popular-grid .content h6{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .popular .box h1{
+        font-size: 20px;
+    }
+    .popular-grid{
+        grid-template-columns: 1fr;
+    }
+}
